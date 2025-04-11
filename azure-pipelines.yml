@@ -7,7 +7,7 @@ trigger:
   - main
 
 pool:
-  vmImage: Default
+  vmImage: DESKTOP-8K9NATO
 
 steps:
   - script: echo Myfirst Azure Pipeline for maven project
