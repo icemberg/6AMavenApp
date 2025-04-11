@@ -7,7 +7,7 @@ trigger:
   - main
 
 pool:
-  vmImage: DESKTOP-8K9NATO
+  vmImage: Default
 
 steps:
   - script: echo Myfirst Azure Pipeline for maven project
@@ -16,5 +16,5 @@ steps:
   - script: mvn clean install
     displayName: 'Build with maven'
 
-  - script: java -jar target/SimpleMavenApp-1.0-SNAPSHOT.jar
+  - script: java -jar target/6AMavenApp-1.0-SNAPSHOT.jar
     displayName: 'Running jar'
